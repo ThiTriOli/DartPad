@@ -1,0 +1,23 @@
+void main() {
+  double produto = 1000;
+  double parcela = 5; 
+  double aumento = 0.0;
+  double percentual = 0.0;
+  double valor =0.0;
+
+  if (parcela == 3) {
+    percentual = produto*0.1;
+    aumento = produto+percentual;
+    valor=aumento/3;
+  print('O valor original: $produto');
+  print('O valor das parcelas com 10% amais: $aumento');
+  print('O valor total com 10% amais: $valor');
+  } else if (parcela == 5) {
+    percentual = produto*0.2;
+    aumento = produto+percentual;
+    valor=aumento/5;
+ print('O valor original: $produto');
+ print('O valor das parcelas com 20% amais: $aumento');
+ print('O valor total com 20% amais: $valor');
+  }
+}

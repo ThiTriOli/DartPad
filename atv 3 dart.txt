@@ -1,0 +1,19 @@
+void main() {
+String nome = 'Teste';
+double nota01 = 10.0;
+double nota02 = 7.0;
+double nota03 = 6.0;
+double media = 0.0;
+
+media = (nota01+nota02+nota03)/3;
+ if (media >= 7) {
+   print('Aprovado');
+    print('O nome do aluno é: $nome');
+       print('A suas notas são: $nota01 $nota02 $nota03. Teve uma média de $media');
+  } 
+  else{
+    print('Reprovado');
+    print('O nome do aluno é: $nome');
+       print('A suas notas são: $nota01 $nota02 $nota03. Teve uma média de $media');
+  }
+  }

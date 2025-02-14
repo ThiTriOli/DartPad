@@ -1,0 +1,25 @@
+
+void main() {
+double a = 2.0;
+double b = 3.0;
+double c = 4.0;
+
+double areaTriangulo = 0.0;
+double circuloRaioC = 0.0;
+double areaTrapezio = 0.0;
+double areaQuadrado = 0.0;
+double areaRetangulo = 0.0;
+
+  areaTriangulo = (a*b)/2;
+  circuloRaioC = (c*c)*3.14;
+  areaTrapezio = ((a+b)*c)/2;
+  areaQuadrado = b*b;
+  areaRetangulo = a*b;
+  
+  print('Os números são $a $b $c.');
+    print('A area do triangulo com $a como base e $b como altura é $areaTriangulo.');
+       print('A área de um circulo com o raio $c é $circuloRaioC.');
+          print('A área do trapezio tendo $a como base maior, $b como base menor e $c como altura é $areaTrapezio ');
+             print('A área do quadrado tendo $b como seu lado é $areaQuadrado');
+                print('A área do retangulo tendo $a e $b como seus lados é $areaRetangulo');
+  }

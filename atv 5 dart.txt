@@ -1,0 +1,36 @@
+void main() {
+  double valor = 210;
+  double valorOriginal = valor; 
+  int moedas100 = 0;
+  int moedas50 = 0;
+  int moedas10 = 0;
+  int moedas05 = 0;
+  int moedas01 = 0;
+
+  while (valor >= 100) {
+    valor = valor - 100;
+    moedas100++;
+  }
+  while (valor >= 50) {
+    valor = valor - 50;
+    moedas50++;
+  }
+  while (valor >= 10) {
+    valor = valor - 10;
+    moedas10++;
+  }
+  while (valor >= 5) {
+    valor = valor - 5;
+    moedas05++;
+  }
+  while (valor >= 1) {
+    valor = valor - 1;
+    moedas01++;
+  }
+  print('O valor original é: $valorOriginal');
+  print('A quantidade de moedas de 100 é $moedas100');
+  print('A quantidade de moedas de 50 é $moedas50');
+  print('A quantidade de moedas de 10 é $moedas10');
+  print('A quantidade de moedas de 5 é $moedas05');
+  print('A quantidade de moedas de 1 é $moedas01');
+}
